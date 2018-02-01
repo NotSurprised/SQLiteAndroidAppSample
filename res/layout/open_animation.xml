@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/volleyball_bg"
+    android:gravity="center">
+	
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <TextView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:singleLine="true"
+		    android:gravity="right"
+		    
+		    android:text="my"
+	        android:textSize="40dp" 
+		    android:textColor="#99EEEEEE" />
+        
+        <TextView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:singleLine="true"
+		    android:gravity="left"
+		    
+		    android:text="ScoreList"
+	        android:textSize="40dp" 
+		    android:textStyle="bold"
+		    android:textColor="#EEEEEE"
+		    
+		    android:shadowColor="#55666666"
+		    android:shadowRadius="5"
+		    android:shadowDx="1"
+		    android:shadowDy="1"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mp_subtitle_bg"
+        android:layout_margin="5dp">
+    	
+        <TextView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:singleLine="true"
+		    android:gravity="right"
+		    
+		    android:text="Power by "
+	        android:textSize="16dp" 
+		    android:textColor="#99EEEEEE" />
+        
+        <TextView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:singleLine="true"
+		    android:gravity="left"
+		    
+		    android:text="Panno"
+	        android:textSize="16dp" 
+		    android:textStyle="bold"
+		    android:textColor="#BBEEEEEE"/>
+        
+    </LinearLayout>
+	<!-- 
+    <ImageView 
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/mp_photo_bg"
+        android:src="@drawable/mp_photo"
+        android:layout_marginBottom="10dp" />
+        
+    <TextView
+		android:id="@+id/login_title"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:singleLine="true"
+	    android:gravity="center"
+	    
+	    android:text="Samuel Sue"
+        android:textSize="20dp" 
+        android:typeface="sans"
+	    android:textStyle="bold"
+	    android:textColor="#EEEEEE" />
+    
+     -->
+
+</LinearLayout>
